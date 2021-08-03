@@ -1,0 +1,52 @@
+.outerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1A1A1D;
+  }
+  
+ .container {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #36393F;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+  }
+
+  .inputContainer{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .infoContainer {
+    display: inline-flex;
+    background: #2f3136;
+    height: 100%;
+    width: 30%;
+  }
+
+  .userContainer {
+    display: inline-flex;
+    background: #2f3136;
+    height: 100%;
+    width: 30%;
+  }
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    .outerContainer {
+      height: 100%;
+    }
+  
+    .container {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
+  @media (min-width: 480px) and (max-width: 1200px) {
+    .container {
+      width: 60%;
+    }
+  }

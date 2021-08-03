@@ -1,0 +1,58 @@
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    color: white;
+    height: 60%;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .userbox {
+    width: 100%;
+  }
+  
+  h3 {
+    margin-left: 10px;
+  }
+  
+  .activeContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50%;
+    margin-top: 20px;
+  }
+  
+  .activeItem {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: #6c6f77;
+  }
+
+  .activeItem:hover{
+    background-color:#34373c;
+    color: white;
+  }
+  
+  .activeContainer img {
+    padding-left: 10px;
+
+  }
+  
+  .textContainer h1 {
+    margin-bottom: 0px;
+  }
+
+  .name {
+    margin-left: 10px;
+    font-size: large;
+  }
+  
+  @media (min-width: 320px) and (max-width: 1200px) {
+    .textContainer {
+      display: none;
+    }
+  }

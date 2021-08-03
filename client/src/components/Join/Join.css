@@ -1,0 +1,52 @@
+.joinOuterContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-color: #0C1018;
+}
+.joinInnerContainer{
+    width: 20%;    
+}
+
+.display-2{
+    color: white;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white ;
+}
+
+.joinInput{
+    border-radius: 0;
+    padding: 10px 20px;
+    width: 100%;
+    outline: 0;
+    border-style: hidden;
+}
+
+.btn{
+    text-transform: uppercase;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.btn focus{
+    outline: 0;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+@media (min-width: 280px) and (max-width: 480px){
+    .joinInnerContainer{
+        width: 90%;
+    }
+}
+
+@media (min-width:481px ) and (max-width: 900px){
+    .joinInnerContainer{
+        width: 50%;
+    }
+}
